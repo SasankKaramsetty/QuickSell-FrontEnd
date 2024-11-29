@@ -1,0 +1,40 @@
+.ticket-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  transition: box-shadow 0.2s ease;
+}
+
+.ticket-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-card h3 {
+  font-size: 1rem;
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.ticket-card p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+/* Priority-based card borders */
+.priority-0 {
+  border-left: 5px solid #ccc;
+}
+.priority-1 {
+  border-left: 5px solid #8fc7f3;
+}
+.priority-2 {
+  border-left: 5px solid #f9c74f;
+}
+.priority-3 {
+  border-left: 5px solid #f9844a;
+}
+.priority-4 {
+  border-left: 5px solid #f94144;
+}

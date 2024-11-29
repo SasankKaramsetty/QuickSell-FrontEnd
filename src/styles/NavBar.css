@@ -1,0 +1,75 @@
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+/* Dropdown Container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Main Dropdown Button */
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  gap: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 150px; /* Adjust width as needed */
+}
+
+.dropdown-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 4px;
+  min-width: 250px;
+  margin-top: 4px;
+  z-index: 1;
+}
+
+/* Dropdown Items */
+.dropdown-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Label and Select dropdown on the same line */
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px; /* Space between rows */
+}
+
+/* Label Styling */
+.dropdown-item span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+}
+
+/* Select Dropdown Styled as Card */
+.select-card {
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Full width inside the column */
+}
+
+.select-card:hover {
+  background-color: #f0f0f0;
+}
+

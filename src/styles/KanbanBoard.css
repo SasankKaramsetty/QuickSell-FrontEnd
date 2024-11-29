@@ -1,0 +1,32 @@
+.kanban-board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.kanban-board.horizontal-layout {
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+}
+
+.kanban-column {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  flex-shrink: 0;
+}
+
+.column-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.ticket-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
